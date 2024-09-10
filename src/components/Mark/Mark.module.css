@@ -1,0 +1,29 @@
+.mark {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+}
+
+.text {
+   width: 26rem;
+   padding: 30px;
+   color: #353537;
+   text-decoration: none;
+   background-color: white;
+   border-radius: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   display: flex;
+   gap: 20px;
+}
+
+.description {
+   font-weight: 400;
+   color: #7C8189;
+}
+
+.active {
+   font-style: normal;
+   font-weight: lighter;
+   color: #0F7CF2;
+}

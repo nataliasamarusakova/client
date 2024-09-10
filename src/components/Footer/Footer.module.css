@@ -1,0 +1,13 @@
+.footerLink {
+    color: #696868;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: #373737;
+}
+
+.divider {
+    border-top: 1px solid #adadad;
+    margin: 1.3rem 0;
+} 

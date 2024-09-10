@@ -1,0 +1,44 @@
+.logContainer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.textarea {
+    padding: 0;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.textarea:hover,
+.textarea:focus,
+.textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.logSearchText {
+    margin: 0px 15px !important;
+    border-radius: 10px !important;
+}
+
+.logContainer button {
+    border-radius: 10px !important;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.navigation ul {
+    margin: 0;
+}
+

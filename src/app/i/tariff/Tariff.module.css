@@ -1,0 +1,27 @@
+.containerTariff {
+    height: 585px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+}
+
+.pro:before {
+    content: "✓";
+    font-size: 18px;
+    color: #4b8ef1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.basic:before {
+    content: "−";
+    font-size: 18px;
+    color: #ed9d68;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.select {
+    border-color: #4b8ef1;
+    border-width: initial;
+}

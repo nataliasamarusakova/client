@@ -1,0 +1,80 @@
+{
+  "name": "nevel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimalist boilerplate for Next with Tailwind CSS",
+  "license": "MIT",
+  "scripts": {
+    "analyze": "cross-env ANALYZE=true next build",
+    "build": "next build",
+    "dev": "next dev",
+    "format": "prettier -w \"src/*/*.{tsx,ts,js,jsx,css}\"",
+    "lint": "next lint",
+    "start": "next start",
+    "tsc": "tsc --pretty --noEmit"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "@tanstack/react-query": "^5.51.23",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "clsx": "^2.1.1", 
+    "js-cookie": "^3.0.5",
+    "next": "^14.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.52.1",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@next/bundle-analyzer": "^14.0.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.8.10",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@typescript-eslint/parser": "^6.9.1",
+    "cross-env": "^7.0.3",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.31",
+    "typescript": "5.1.6"
+  },
+  "engines": {
+    "node": ">18"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "import/no-unresolved": "off",
+      "simple-import-sort/imports": "warn",
+      "simple-import-sort/exports": "warn",
+      "no-console": [
+        "warn",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ]
+    }
+  }
+}

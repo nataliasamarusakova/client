@@ -1,0 +1,21 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.table th,
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.containerLayout {
+  display: flex;
+  height: 100vh;
+}

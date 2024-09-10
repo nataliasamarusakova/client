@@ -1,0 +1,34 @@
+.registerForm {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+}
+
+.selectImage {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+
+.formAuthError {
+    margin-top: 5px;
+    color: tomato;
+}
+
+.sizeControl {
+    height: 45px;
+}

@@ -1,0 +1,51 @@
+.registerForm {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+}
+
+.formRegisterError {
+    color: tomato;
+    margin-top: 5px;
+}
+
+.registerSuccess {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+}
+
+.registerSuccessLogin {
+    text-decoration: none;
+    color: white;
+}
+
+.selectImage {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+
+.useTermsUse {
+    display: flex;
+    align-items: baseline;
+    text-align: justify;
+    text-wrap: balance;
+}

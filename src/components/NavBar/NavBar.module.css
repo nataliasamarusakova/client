@@ -1,0 +1,58 @@
+.menuList {
+    list-style: none;
+    padding: 15px;
+}
+
+.menuLinkText {
+    margin-right: 10px;
+}
+
+.color {
+    color: #4B8EF1;
+}
+
+.menuLink {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #9da0a7;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.disableLink {
+    text-decoration: none;
+}
+
+.menuLink:hover:not(.menuSelectItem) {
+    background-color: #ddd;
+}
+
+.menuSelectItem {
+    background-color: #0F7CF2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.selectImage {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+
+.containerMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-items: center;
+    width: 195px;
+}

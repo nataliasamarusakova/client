@@ -1,0 +1,44 @@
+.textarea-account {
+    resize: none;
+    max-height: 300px;
+    min-height: min-content;
+}
+
+.form-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.form-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.form-modal-account {
+    width: 400px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    z-index: 2;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.form-auth-error {
+    color: tomato;
+    margin: 5px 0px 0px;
+}
