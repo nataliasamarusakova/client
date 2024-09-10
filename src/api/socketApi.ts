@@ -7,7 +7,7 @@ export class socketApi {
     static socket: Socket;
 
     static createConnection() {
-        this.socket = io('http://localhost:3300', { auth: { access_token: Cookies.get(ACCESS_TOKEN) } });
+        this.socket = io('http://accounts-tool.ru/', { auth: { access_token: Cookies.get(ACCESS_TOKEN) } });
     }
 
     static disconnectSocket() {

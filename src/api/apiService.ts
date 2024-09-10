@@ -2,12 +2,12 @@ import axios, { AxiosRequestConfig } from "axios";
 import { IAccount } from "../interface/account";
 import { IProfileUser } from "../interface/profile.user";
 import { ACCESS_TOKEN } from "../constants/constants";
-import Cookies from 'js-cookie';
 import { ILogs } from "../hooks/useLogs";
+import Cookies from 'js-cookie';
 
 class ApiService {
 
-    private URL = 'http://localhost:3300/api';
+    private URL = 'http://accounts-tool.ru/api';
 
     private error(error: unknown, massage: string, auth?: boolean) {
         if (axios.isAxiosError(error) && error.response) {
